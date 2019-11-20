@@ -13,13 +13,15 @@ body {
     float: left;
 }
 
-.topnav-left a {
+.topnav-left a,
+.topnav-right a {
     float: left;
     color: #b0b0b0;
     line-height: 40px;
 }
 
-.topnav-left i {
+.topnav-left i,
+.topnav-right i {
     float: left;
     color: #3c423f;
     margin: 0 8px;
@@ -30,21 +32,115 @@ body {
     float: right;
 }
 
-.topnav-right a {
-    float: left;
-    color: #b0b0b0;
-    line-height: 40px;
-}
-
-.topnav-right i {
-    float: left;
-    color: #3c423f;
-    margin: 0 8px;
-    line-height: 40px;
+.topnav-left a:hover,
+.topnav-right a:hover {
+    color: #ffffff;
 }
 
 .topnav-right .cart {
     margin-left: 25px;
     width: 120px;
     height: 40px;
+    background-color: #424242;
+    text-align: center;
+}
+
+.topnav-right .cart:hover {
+    background-color: #ffffff;
+    color: #ff6700;
+}
+
+.topnav-left .app-img {
+    height: 130px;
+    width: 100%;
+}
+
+.topnav-left .app img {
+    width: 90px;
+    height: 90px;
+}
+
+.search {
+    width: 100%;
+    height: 100px;
+}
+
+.search-left a {
+    float: left;
+    width: 55px;
+    height: 55px;
+    background-image: url(../img/mi-logo.png);
+    background-color: #ff6700;
+    background-position: center;
+    margin: calc((100px - 55px) / 2) 0;
+}
+
+.search-left a:hover {
+    background-image: url(../img/mi-home.png);
+    background-color: #ff6700;
+    background-position: center;
+    z-index: 999;
+}
+
+.search-center {
+    margin: calc((100px - 17.6px) / 2) 0;
+    float: left;
+    margin-left: 190px;
+}
+
+.search-center a {
+    float: left;
+    font-size: 16px;
+    color: #333333;
+    padding: 0 10px;
+}
+
+.search-center a:hover {
+    color: #ff6700;
+}
+
+.search-right {
+    float: right;
+    position: relative;
+    width: 296px;
+    height: 50px;
+    background: #ffffff;
+    margin: calc((100px - 50px) / 2);
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+}
+
+.search-right input {
+    border: none;
+    width: 230px;
+    height: 48px;
+    margin-left: 9px;
+}
+
+.search-right button {
+    float: right;
+    width: 50px;
+    height: 49px;
+    border: none;
+    background-color: #ffffff;
+    border-left: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.search-right-hot {
+    position: absolute;
+    right: 60px;
+    top: 16px;
+}
+
+.search-right-hot a {
+    background-color: #eeeeee;
+    margin-right: 10px;
+    padding: 0 10px;
+    color: #757575;
+}
+
+.search-right-hot a:hover {
+    background-color: #ff6700;
+    color: #ffffef;
 }
