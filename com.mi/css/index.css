@@ -138,6 +138,7 @@ body {
     margin-right: 10px;
     padding: 0 10px;
     color: #757575;
+    transition: all .2s;
 }
 
 .search-right-hot a:hover {
@@ -220,6 +221,7 @@ body {
     height: 82px;
     text-align: center;
     opacity: 0.5;
+    transition: all .2s;
 }
 
 .discount-server a:before {
@@ -285,6 +287,10 @@ body {
 .flash-tatle {
     width: 100%;
     height: 62px;
+}
+
+.flash-tatle-button {
+    margin-top: 28px;
 }
 
 .flash-tatle span {
@@ -368,7 +374,19 @@ body {
     margin-left: 14px;
     background-color: #ffffff;
     text-align: center;
+    border-top: 1px solid #83c44e;
+}
 
+.flash-content-show-product:nth-child(2) {
+    border-top: 1px solid #2196f3;
+}
+
+.flash-content-show-product:nth-child(3) {
+    border-top: 1px solid #e53935;
+}
+
+.flash-content-show-product:nth-child(4) {
+    border-top: 1px solid #00c0c5;
 }
 
 .flash-content-show-product img {
@@ -414,10 +432,494 @@ body {
     width: 100%;
     height: 120px;
     float: left;
-    margin-top: 22px;
+    margin: 22px 0;
 }
 
 .flash-bottom img {
     width: 100%;
     height: 120px;
+}
+
+.phone {
+    background-color: #f5f5f5;
+}
+
+.phone-title {
+    height: calc(80px - 22px);
+}
+
+.phone-title span {
+    float: left;
+    line-height: 58px;
+    font-size: 21px;
+}
+
+.phone-all {
+    height: 100%;
+    width: 87px;
+    float: right;
+    color: #424242;
+}
+
+.phone-all a {
+    line-height: 58px;
+    transition: all 1s;
+    font-size: 16px;
+}
+
+.phone-all i {
+    width: 20px;
+    height: 20px;
+    color: #ffffff;
+    border: 1px solid #b0b0b0;
+    background-color: #b0b0b0;
+    border-radius: 50%;
+    transition: all 1s;
+}
+
+.phone-all .more-link:hover {
+    color: #ff6700;
+}
+
+.phone-all .more-link:hover i {
+    width: 20px;
+    height: 20px;
+    background-color: #ff6700;
+    border: 1px solid #ff6700;
+}
+
+.phone-left {
+    height: 628px;
+    width: 234px;
+    float: left;
+}
+
+.phone-left img {
+    width: 100%;
+    height: 614px;
+    transition: all .2s;
+}
+
+.phone-left a:hover img {
+    margin-top: -1px;
+    z-index: 2;
+    /* background-color: teal; */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.phone-right {
+    width: calc(1226px - 234px);
+    height: 628px;
+    float: right;
+}
+
+.phone-right a {
+    width: 234px;
+    height: 300px;
+    float: left;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background-color: #ffffff;
+    text-align: center;
+    transition: all .5s;
+}
+
+.phone-right a img {
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+}
+
+.phone-right a h3 {
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.phone-right a p {
+    font-size: 12px;
+    color: #b0b0b0;
+    margin-top: 5px;
+    margin-bottom: 18px;
+}
+
+.phone-right a span {
+    font-size: 12px;
+    color: #ff6700;
+}
+
+.phone-right a s {
+    font-size: 12px;
+    color: #b0b0b0;
+    text-decoration: line-through;
+}
+
+.phone-right a:hover {
+    margin-top: -1px;
+    z-index: 2;
+    /* background-color: teal; */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.phone-guanggao img {
+    widows: 1226px;
+    height: 120px;
+    float: left;
+    margin: 22px 0;
+}
+
+.wiring {
+    background-color: #f5f5f5;
+}
+
+.wiring-title {
+    width: 100%;
+    height: 58px;
+}
+
+.wiring-title-left {
+    float: left;
+}
+
+.wiring-title-left span {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 58px;
+}
+
+.wiring-title-right {
+    float: right;
+}
+
+.wiring-title-right a {
+    font-size: 16px;
+    line-height: 58px;
+    transition: all .3s;
+}
+
+.wiring-title-right a:last-child {
+    margin-left: 30px;
+}
+
+.wiring-title-right a:hover {
+    color: #ff6700;
+    border-bottom: 2px solid #ff6700;
+}
+
+.wiring-advert {
+    float: left;
+    width: 234px;
+    height: 628px;
+}
+
+.wiring-advert-top,
+.wiring-advert-bottom {
+    float: left;
+}
+
+.wiring-advert-top img,
+.wiring-advert-bottom img {
+    width: 234px;
+    height: 300px;
+    transition: all .2s;
+}
+
+.wiring-advert-top,
+.wiring-advert-bottom {
+    width: 234px;
+    height: 300px;
+    transition: all .2s;
+}
+
+.wiring-advert-top {
+    margin-bottom: 14px;
+}
+
+.wiring-ware {
+    width: calc(1226px - 234px);
+    height: 628px;
+    float: left;
+}
+
+.wiring-ware a {
+    float: left;
+    width: 234px;
+    height: 300px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background-color: #ffffff;
+    text-align: center;
+    transition: all .2s;
+}
+
+.wiring-ware a img {
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+
+}
+
+.wiring-ware a h3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.wiring-ware a p {
+    font-size: 12px;
+    color: #b0b0b0;
+    margin-bottom: 15px;
+}
+
+.wiring-ware a span {
+    color: #ff6700;
+    font-size: 14px;
+}
+
+.wiring-ware a s {
+    color: #b0b0b0;
+    font-size: 14px;
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+
+
+.wiring-ware a:nth-last-child(-n+2) {
+    width: 234px;
+    height: 143px;
+}
+
+.wiring-ware a:nth-child(8) h3 {
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+
+.wiring-ware a:nth-child(8) img {
+    width: 82px;
+    height: 82px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 18px;
+}
+
+.wiring-more .wiring-more-font {
+    width: 94px;
+    height: 44px;
+    padding-top: 50px;
+    float: left;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.wiring-more .wiring-more-font h3 {
+    font-size: 18px;
+    color: #333;
+    font-weight: 500;
+}
+
+.wiring-more .wiring-more-font span {
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+.wiring-more i {
+    font-size: 48px;
+    color: #ff6700;
+    line-height: 135px;
+}
+
+.wiring-advert-bottom-02 img {
+    width: 100%;
+    height: 120px;
+    margin: 22px 0;
+}
+
+.wiring-advert a:hover,
+.wiring-ware a:hover {
+    margin-top: -1px;
+    z-index: 2;
+    /* background-color: teal; */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+
+/*  */
+/*  */
+/*  */
+
+.noopsyche {
+    background-color: #f5f5f5;
+}
+
+.noopsyche-title {
+    width: 100%;
+    height: 58px;
+}
+
+.noopsyche-title-left {
+    float: left;
+}
+
+.noopsyche-title-left span {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 58px;
+}
+
+.noopsyche-title-right {
+    float: right;
+}
+
+.noopsyche-title-right a {
+    font-size: 16px;
+    line-height: 58px;
+    transition: all .3s;
+}
+
+.noopsyche-title-right a {
+    margin-left: 30px;
+}
+
+.noopsyche-title-right a:hover {
+    color: #ff6700;
+    border-bottom: 2px solid #ff6700;
+}
+
+.noopsyche-advert {
+    float: left;
+    width: 234px;
+    height: 628px;
+}
+
+.noopsyche-advert-top,
+.noopsyche-advert-bottom {
+    float: left;
+}
+
+.noopsyche-advert-top img,
+.noopsyche-advert-bottom img {
+    width: 234px;
+    height: 300px;
+    transition: all .2s;
+}
+
+.noopsyche-advert-top,
+.noopsyche-advert-bottom {
+    width: 234px;
+    height: 300px;
+    transition: all .2s;
+}
+
+.noopsyche-advert-top {
+    margin-bottom: 14px;
+}
+
+.noopsyche-ware {
+    width: calc(1226px - 234px);
+    height: 628px;
+    float: left;
+}
+
+.noopsyche-ware a {
+    float: left;
+    width: 234px;
+    height: 300px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background-color: #ffffff;
+    text-align: center;
+    transition: all .2s;
+}
+
+.noopsyche-ware a img {
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+
+}
+
+.noopsyche-ware a h3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.noopsyche-ware a p {
+    font-size: 12px;
+    color: #b0b0b0;
+    margin-bottom: 15px;
+}
+
+.noopsyche-ware a span {
+    color: #ff6700;
+    font-size: 14px;
+}
+
+.noopsyche-ware a s {
+    color: #b0b0b0;
+    font-size: 14px;
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+
+
+.noopsyche-ware a:nth-last-child(-n+2) {
+    width: 234px;
+    height: 143px;
+}
+
+.noopsyche-ware a:nth-child(8) h3 {
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+
+.noopsyche-ware a:nth-child(8) img {
+    width: 82px;
+    height: 82px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 18px;
+}
+
+.noopsyche-more .noopsyche-more-font {
+    width: 94px;
+    height: 44px;
+    padding-top: 50px;
+    float: left;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.noopsyche-more .noopsyche-more-font h3 {
+    font-size: 18px;
+    color: #333;
+    font-weight: 500;
+}
+
+.noopsyche-more .noopsyche-more-font span {
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+.noopsyche-more i {
+    font-size: 48px;
+    color: #ff6700;
+    line-height: 135px;
+}
+
+.noopsyche-advert-bottom-02 img {
+    width: 100%;
+    height: 120px;
+    margin: 22px 0;
+}
+
+.noopsyche-advert a:hover,
+.noopsyche-ware a:hover {
+    margin-top: -1px;
+    z-index: 2;
+    /* background-color: teal; */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
 }
