@@ -514,6 +514,9 @@ body {
 }
 
 .phone-right a {
+    position: relative;
+    left: 0;
+    top: 0;
     width: 234px;
     height: 300px;
     float: left;
@@ -555,7 +558,7 @@ body {
 }
 
 .phone-right a:hover {
-    margin-top: -1px;
+    top: -1px;
     z-index: 2;
     /* background-color: teal; */
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
@@ -642,6 +645,9 @@ body {
 }
 
 .wiring-ware a {
+    position: relative;
+    left: 0;
+    top: 0;
     float: left;
     width: 234px;
     height: 300px;
@@ -737,7 +743,7 @@ body {
 
 .wiring-advert a:hover,
 .wiring-ware a:hover {
-    margin-top: -1px;
+    top: -1px;
     z-index: 2;
     /* background-color: teal; */
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
@@ -823,6 +829,9 @@ body {
 }
 
 .noopsyche-ware a {
+    position: relative;
+    left: 0;
+    top: 0;
     float: left;
     width: 234px;
     height: 300px;
@@ -918,7 +927,7 @@ body {
 
 .noopsyche-advert a:hover,
 .noopsyche-ware a:hover {
-    margin-top: -1px;
+    top: -1px;
     z-index: 2;
     /* background-color: teal; */
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
@@ -1004,6 +1013,9 @@ body {
 }
 
 .collocation-ware a {
+    position: relative;
+    left: 0;
+    top: 0;
     float: left;
     width: 234px;
     height: 300px;
@@ -1099,8 +1111,62 @@ body {
 
 .collocation-advert a:hover,
 .collocation-ware a:hover {
-    margin-top: -1px;
+    top: -1px;
     z-index: 2;
     /* background-color: teal; */
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* 视频 */
+.video {
+    width: 100%;
+    height: 285px;
+    background-color: #f5f5f5;
+}
+
+.video a {
+    position: relative;
+    float: left;
+    width: 296px;
+    height: 285px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.video a p {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.video a span {
+    color: #b0b0b0;
+}
+
+.video a:nth-last-child(-n+3) {
+    margin-left: 14px;
+}
+
+.video a img {
+    width: 296px;
+    height: 180px;
+}
+
+.video a i {
+    position: absolute;
+    left: 20px;
+    bottom: 115px;
+    width: 32px;
+    height: 20px;
+    border: 2px solid #fff;
+    line-height: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 25px;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.video a:hover i {
+    background-color: #ff6700;
+    border: 2px solid #ff6700;
 }
